@@ -46,6 +46,15 @@ config FLASH_CURRENT_CHANGE_SUPPORT
         default n
         help
            Change torch current in capturing image.
+<<<<<<< HEAD
+=======
+config SECURE_CAMERA_USE
+        tristate "Use secure camera"
+        depends on CAMERA_VENDER_MCD
+        default n
+        help
+          Use secure camera.
+>>>>>>> 5c1050811ebf (Nuke build warnings)
 config USE_SIGNED_BINARY
         bool "Enable signed binary processing."
         depends on CAMERA_VENDER_MCD

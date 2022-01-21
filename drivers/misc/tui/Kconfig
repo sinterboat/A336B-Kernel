@@ -1,6 +1,9 @@
 config SAMSUNG_TUI
 	tristate "Samsung Trustzone Teegris UI"
+<<<<<<< HEAD
 	bool "TUI HW Handler"
+=======
+>>>>>>> 5c1050811ebf (Nuke build warnings)
 	default n
 	help
 		Provide methods for TUI such as acquisition of buffer
